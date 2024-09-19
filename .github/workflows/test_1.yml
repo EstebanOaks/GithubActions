@@ -3,9 +3,16 @@ name: Test
 on: [push]
 
 jobs:
-  test:
+  hola:
     runs-on: ubuntu-latest
 
     steps:
       - name: Test Step
         run: echo "Este es un paso de prueba"
+
+  other:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: LS
+      run: ls -al
