@@ -1,11 +1,11 @@
-name: hola mundo
+name: Test
 
 on: [push]
 
 jobs:
-  hola:
-    runs-on: ubuntu-latest  # Corrección aquí
+  test:
+    runs-on: ubuntu-latest
 
     steps:
-    - name: hola mundo
-      run: echo "hola mundo"
+      - name: Test Step
+        run: echo "Este es un paso de prueba"
