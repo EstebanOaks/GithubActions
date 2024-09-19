@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   hola:
-    runs-on: ubuntu-latest
-    
+    runs-on: ubuntu-latest  # Corrección aquí
+
     steps:
     - name: hola mundo
       run: echo "hola mundo"
