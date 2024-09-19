@@ -25,16 +25,3 @@ jobs:
 
       - name: read file
         run: cat hola.txt
-
-  other:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4.1.7
-
-
-    - name: ls
-      run: 
-        chmod +x script.sh
-        ./script.sh
